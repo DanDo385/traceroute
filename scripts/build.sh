@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 set -euo pipefail
-echo "Building blackjack CLI..."
-go build -o ./bin/blackjack ./cmd/blackjack
-echo "Build complete! Binary at ./bin/blackjack"
+echo "Building traceroute CLI..."
+go build -o ./bin/traceroute ./cmd/traceroute
+echo "Build complete! Binary at ./bin/traceroute"

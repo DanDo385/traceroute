@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -euo pipefail
-echo "Running blackjack CLI..."
-go run ./cmd/blackjack
+echo "Running traceroute CLI..."
+go run ./cmd/traceroute "$@"
